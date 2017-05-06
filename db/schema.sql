@@ -1,0 +1,10 @@
+CREATE DATABASE burger_db;
+USE burger_db;
+CREATE TABLE burgers (
+	id INT NOT NULL AUTO_INCREMENT,
+	burger_name VARCHAR(250) NOT NULL,
+	image VARCHAR(500) NOT NULL,
+	devoured BOOLEAN NOT NULL DEFAULT FALSE,
+	create_date TIMESTAMP NOT NULL,
+	PRIMARY KEY (id)
+);
