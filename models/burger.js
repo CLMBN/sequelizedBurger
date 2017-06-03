@@ -9,6 +9,10 @@ module.exports = function(sequelize, DataTypes) {
             type: DataTypes.STRING,
             allowNull: false
         },
+        image: {
+            type: DataTypes.STRING,
+            allowNull: false
+        },
         devoured: {
             type: DataTypes.BOOLEAN,
             allowNull: false,
